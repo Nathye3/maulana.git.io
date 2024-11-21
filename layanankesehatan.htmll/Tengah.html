@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan Kesehatan</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        nav {
+            background-color: #4CAF50;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #e8f5e9;
+        }
+        .search-bar {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .search-bar input {
+            padding: 10px;
+            width: 300px;
+        }
+        .search-bar button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .search-bar button:hover {
+            background-color: #45a049;
+        }
+        .service-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .service {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 15px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .service img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Header -->
+    <nav>
+        <ul>
+            <li><a href="#" id="home-link">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="kesehatan.html">Daftar Sekarang</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <h1>Selamat Datang di Layanan Kesehatan Kami</h1>
+        <h3>Cari Layanan Kesehatan yang Anda Butuhkan.</h3>
+    </header>
+
+    <!-- Search Bar -->
+    <section class="search-bar">
+        <input type="text" id="search-input" placeholder="Cari layanan kesehatan...">
+        <button id="search-button">Cari</button>
+    </section>
+
+    <!-- Service List -->
+    <section class="service-list" id="service-list">
+        <article class="service">
+            <img src="pemeriksaan-removebg-preview.png" alt="Pemeriksaan Kesehatan">
+            <div class="service-info">
+                <h2>Pemeriksaan Kesehatan</h2>
+                <p>Pemeriksaan kesehatan umum untuk deteksi dini penyakit.</p>
+                <a href="pemeriksaan.html" class="service-link">Lihat Detail</a>
+            </div>
+        </article>
+        
+        <article class="service">
+            <img src="konsul-removebg-preview.png" alt="Konsultasi Dokter">
+            <div class="service-info">
+                <h2>Konsultasi Dokter</h2>
+                <p>Konsultasi dengan dokter untuk masalah kesehatan Anda.</p>
+                <a href="konsultasi.html" class="service-link">Lihat Detail</a>
+            </div>
+        </article>
+        
+        <article class="service">
+            <img src="vaksinasi-removebg-preview.png" alt="Vaksinasi">
+            <div class="service-info">
+                <h2>Vaksinasi</h2>
+                <p>Layanan vaksinasi untuk menjaga kesehatan Anda.</p>
+                <a href="vaksinasi.html" class="service-link">Lihat Detail</a>
+            </div>
+        </article>
+        
+        <article class="service">
+            <img src="oe.jpeg" alt="Pengobatan">
+            <div class="service-info">
+                <h2>Pengobatan</h2>
+                <p>Layanan pengobatan untuk berbagai macam penyakit.</p>
+                <a href="pengobatan.html" class="service-link">Lihat Detail</a>
+            </div>
+        </article>
+
+        <article class="service">
+            <img src="rehab.jpeg" alt="Rehabilitasi">
+            <div class="service-info">
+                <h2>Rehabilitasi</h2>
+                <p>Program rehabilitasi untuk pemulihan kesehatan.</p>
+                <a href="rehabilitasi.html" class="service-link">Lihat Detail</a>
+            </div>
+        </article>
+
+        <article class="service">
+            <img src="gizi-removebg-preview.png" alt="Konsultasi Gizi">
+            <div class="service-info">
+                <h2>Konsultasi Gizi</h2>
+                <p>Konsultasi dengan ahli gizi untuk pola makan sehat.</p>
+                <a href="gizi.html" class="service-link">Lihat Detail</a>
+            </div>
+        </article>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Layanan Kesehatan. Semua hak dilindungi.</p>
+        <p>
+            <a href="#" style="color: white;">Kebijakan Privasi</a> | 
+            <a href="#" style="color: white;">Syarat dan Ketentuan</a>
+        </p>
+    </footer>
+
+</body>
+</html>

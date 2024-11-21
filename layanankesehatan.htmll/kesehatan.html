@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan Kesehatan</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navigasi -->
+    <nav class="bg-green-600 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <img src="logokesehatan-removebg-preview.png" alt="Logo" class="w-40 cursor-pointer">
+            <a href="/" class="text-white text-2xl font-bold">Healt Center</a>
+            <ul class="flex space-x-4">
+                <li><a href="Tengah.html" class="text-white hover:underline">Home</a></li>
+                <li><a href="about" class="text-white hover:underline">About</a></li>
+                <li><a href="services" class="text-white hover:underline">Services</a></li>
+                <li><a href="contact" class="text-white hover:underline">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container mx-auto p-6">
+        <section class="my-6">
+            <h2 class="text-2xl font-bold mb-4">Kontak Kami</h2>
+            <form class="bg-white p-6 rounded-lg shadow-md">
+                <div class="mb-4">
+                    <label class="block text-gray-700">Nama</label>
+                    <input type="text" class="border border-gray-300 rounded w-full p-2" placeholder="Masukkan nama Anda" required>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700">Email</label>
+                    <input type="email" class="border border-gray-300 rounded w-full p-2" placeholder="Masukkan email Anda" required>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700">Keluhan Penyakit</label>
+                    <textarea class="border border-gray-300 rounded w-full p-2" placeholder="Masukkan keluhan Anda" required></textarea>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700">Pesan</label>
+                    <textarea class="border border-gray-300 rounded w-full p-2" placeholder="Masukkan pesan Anda" required></textarea>
+                </div>
+                <button type="submit" class="bg-green-600 text-white p-2 rounded hover:bg-green-700 transition duration-200">Kirim</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-green-600 text-white text-center p-4">
+        <p>&copy; 2024 Layanan Kesehatan. Semua hak dilindungi.</p>
+    </footer>
+
+</body>
+</html>
